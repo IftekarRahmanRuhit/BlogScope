@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-blue-600 to-purple-700 p-4 shadow-lg">
       <div className="container w-11/12 mx-auto flex justify-between items-center relative">
         <Link href="/" className="text-2xl font-bold text-white tracking-wider">
-          MyApp
+          BlogScope
         </Link>
 
         {/* Desktop Navigation */}
