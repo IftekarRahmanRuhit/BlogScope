@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import Link from 'next/link';
 import getAllBlogs  from '@/lib/getAllBlogs';
@@ -8,6 +7,8 @@ export default async function Blogs() {
   const blogs = await getAllBlogs();
 
   return (
+    <div className="max-w-screen-2xl mx-auto">
+
     <div className="w-4/5 mx-auto">
         <div>
             <p className='text-center mt-5 text-3xl font-bold'>Blog Posts</p>
@@ -28,5 +29,7 @@ export default async function Blogs() {
         ))}
       </div>
     </div>
+    </div>
+
   );
 }
